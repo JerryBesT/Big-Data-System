@@ -1,9 +1,8 @@
-# Big-Data-System
-Research on "Characterizing the Workload of Dynamic Neural Networks"
-### Source code provided
+## Big-Data-System
+Research on "Characterizing the Workload of Dynamic Neural Networks" (Source code provided)
 
 
-Big Data System (CS 744) Fall 2019
+## Big Data System (CS 744) Fall 2019
 
 This class will introduce key concepts and state-of-the-art in big data systems. After covering the basics of modern hardware and software infrastructures that these systems leverage, we will explore the systems themselves from the ground up.
 
