@@ -1,6 +1,0 @@
-# Asynchronous mode
-## How to run
-sh ./run.sh
-The default mode is cluster2
-## How to terminate
-terminate_cluster 

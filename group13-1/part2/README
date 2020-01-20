@@ -1,3 +1,0 @@
-Usage: ./run.sh <master-url> <input file> <output file>
-The output format is .csv
-Example: ./run.sh spark://c220g2-011108vm-1.wisc.cloudlab.us:7077 'hdfs://node0:9000/dataset/country.csv' 'hdfs://node0:9000/sorted.csv'
