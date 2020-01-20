@@ -15,3 +15,5 @@ Machine learning
 Batch and stream analytics
 Graph processing
 Serverless platforms
+
+Course link : http://pages.cs.wisc.edu/~shivaram/cs744-fa19/
