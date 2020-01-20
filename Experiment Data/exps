@@ -1,0 +1,25 @@
+1. Threads, compare CNN & LSTM, as num of thread increases. (CPU & GPU) nvprof
+2. Batch Size
+3. Input & Hidden dim
+same flops but different config
+4. Sequence Length, padding
+5. Cache (sudo perf stat -B -e cache-references,cache-misses,cycles,instructions,branches,faults,migrations python3 Train.py)
+6. Memory bandwidth (pcm-memory)
+
+
+
+
+
+perf stat -a -e task-clock,cycles,instructions,branches,branch-misses -e stalled-cycles-frontend,stalled-cycles-backend -e cache-references,cache-misses -e LLC-loads,LLC-load-misses,LLC-stores,LLC-store-misses -e L1-dcache-loads,L1-dcache-load-misses,L1-dcache-stores,L1-dcache-store-misses
+
+
+LARGE
+CNN: conv 64, 512, 1024. FC 128
+LSTM: unit 1024
+FLOP: 2410 Million
+
+SMALL
+CNN: conv 10, 64, 128. FC 84
+FLOP: 4.52 Million
+LSTM: unit 128
+FLOP: 4.49 Million
