@@ -1,0 +1,4 @@
+## There are three options in run.sh (1, 2, 3)
+./run.sh
+## How to terminate
+terminate_cluster

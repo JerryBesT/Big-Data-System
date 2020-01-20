@@ -1,0 +1,5 @@
+# Single mode
+## How to run
+./run.sh
+## How to terminate
+terminate_cluster 
