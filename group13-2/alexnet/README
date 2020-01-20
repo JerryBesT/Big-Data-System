@@ -1,0 +1,7 @@
+This folder contains code for part2
+
+- How to run?
+
+just run ./run.sh
+
+The script will first run AlexNet training using three machines and then run AlexNet training using two machines.
